@@ -1,0 +1,23 @@
+<meta>
+    <info name="MDPM v1" author="phelipee15" version="1.0.0" type="script" />
+    <script src="scripts/config.lua" type="shared" cache="false" validate="true" />
+    <script src="scripts/main_c.lua" type="client" cache="false" />
+    <script src="scripts/main_s.lua" type="server" />
+    <script src="scripts/painel_c.lua" type="client" cache="false" />
+    <script src="scripts/setradio_c.lua" type="client" cache="false" />
+    <script src="scripts/setradio_s.lua" type="server" />
+    <script src="scripts/utils_c.lua" type="client" cache="false" />
+    <script src="scripts/editbox.lua" type="client" cache="false" />
+    <file src="files/shaders/mta-helper.fx" />
+    <file src="files/shaders/shader.fx" />
+    <file src="files/shaders/strobo.fx" />
+    <file src="files/img/clear.png" />
+    <file src="files/img/confirm.png" />
+    <file src="files/img/logo.png" />
+    <file src="files/img/volume1.png" />
+    <file src="files/img/volume2.png" />
+    <file src="files/img/volume3.png" />
+    <file src="files/fontes/Inter-Bold.ttf" />
+    <export function="getSoundVehicle" type="client" />
+    <min_mta_version client="1.5.6-9.18728" server="1.5.6-9.18728" />
+</meta>
